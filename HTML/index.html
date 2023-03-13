@@ -4,62 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COS</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/main.css"/>
+    <script src="https://kit.fontawesome.com/e60fec2e4e.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Park_0330_profile</title>
 </head>
 <body>
-    <h2>𝓒𝓲𝓽𝔂 𝓞𝓯 𝓢𝓽𝓪𝓻𝓰𝓻𝓪𝓶</h2>
-    <div>
-        <img src="https://t1.daumcdn.net/cfile/tistory/9967A2445C62563617" width="50px">
-        <input type="search" value="검색">
+    <header id="header">
+        <img src = "../Img/Title.png" class="header_title">
+        <input id = "header_input" type="search" placeholder="검색어를 입력해주세요.">
         <div>
-            <h2>Park_0330</h2>
-            <button>프로필 편집</button>
+            <i class="fa-regular fa-building"></i>
+            <i class="fa-regular fa-paper-plane"></i>
+            <i class="fa-regular fa-compass"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-regular fa-comments"></i>
+        </div>
+    </header>
+    <div id="profile">
+        <div id = "profile_pic">
+            <img src="https://t1.daumcdn.net/cfile/tistory/9967A2445C62563617" class="cirlcImg">
+        </div>
+        <div id="profile_info">
+            <div id = "id">Park_0330
+            </div>
+            <button><h4>프로필 편집</button>
         </div>
     </div>
-    <div>
+    <div id="story_main">
     <p>
-        <strong>
+        <strong> 
             박승민(SeungMin-Park)
         </strong><br/>
-        자유로운 영혼
+        자유를 원해~
     </p>
     <p>
-    <a href="https://www.naver.com">네이버</a>
     <h4>seungmin0390@gmail.com</h4>
     </p>
     </div>
-    <div>
-        <div>
-            <img src = "../Img/img1.jpg" height="100px" width="80px">
+    <div id="highlight_area">
+        <div class="highlight">
+            <div class="highlight_pic">
+                <img src = "../Img/img1.jpg" class="cirlcImg">
+            </div>
+            <div class="highlight_text">
+                23.02.04
+            </div>
+        </div>    
+        <div class="highlight">
+            <div class="highlight_pic">
+                <img src="../Img/img3.jpg" class="cirlcImg">
+            </div>
+            <div class="highlight_text">
+                23.01.01
+            </div>
         </div>
-        <div>
-            <img src="../Img/img2.jpg" height="100px" width="80px">
-        </div>
-        <div>
-            <img src="../Img/img3.jpg" height="100px" width="80px">
         </div>
     </div>
+        <div class="textGrid_Main">
+            <div class="textGrid">
+                게시물<br/>
+                123
+            </div>
+            <div class="textGrid">
+                팔로워<br/>
+                302
+            </div>
+            <div class="textGrid">
+                팔로우<br/>
+                150
+            </div>
+        </div>
+        <div id="sub_icons">
+        <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-center nav-link active" href="#">
+                <i class="fa-solid fa-border-all"></i>
+            </a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">
+                <i class="fa-solid fa-film"></i>
+            </a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">
+                <i class="fa-solid fa-circle-play"></i>
+            </a>
+            <a class="flex-sm-fill text-sm-center nav-link " href="#">
+                <i class="fa-solid fa-book-bookmark"></i>
+            </a>
+            <a class="flex-sm-fill text-sm-center nav-link " href="#">
+                <i class="fa-solid fa-comment"></i>
+            </a>
+          </nav>
+        </div>
     <div>
-    <p>
-        게시물<br/>
-        팔로워<br/>
-        팔로우<br/>
-        123<br/>
-        302<br/>
-        150
-    </p>
-    </div>
-    <div>아이콘</div>
-    <div>
-        <img src="../Img/img4.jpg" height="200px" width="32%">
-        <img src="../Img/img5.jpg" height="200px" width="32%">
-        <img src="../Img/img6.jpg" height="200px" width="32%">
-        <img src="../Img/img7.jpg" height="200px" width="32%">
-        <img src="../Img/img8.jpg" height="200px" width="32%">
-        <img src="../Img/img9.jpg" height="200px" width="32%">
-        <img src="../Img/img10.jpg" height="200px" width="32%">
-        <img src="../Img/img11.jpg" height="200px" width="32%">
-        <img src="../Img/img12.jpg" height="200px" width="32%">
+        <div class="board">
+            <img src="../Img/img4.jpg" class="board_Img">
+            <img src="../Img/img5.jpg" class="board_Img">
+            <img src="../Img/img6.jpg" class="board_Img">
+        </div>
+        <div class="board">
+            <img src="../Img/img7.jpg"class="board_Img">
+            <img src="../Img/img8.jpg"class="board_Img">
+            <img src="../Img/img9.jpg" class="board_Img">
+        </div>
+        <div class="board">
+            <img src="../Img/img10.jpg" class="board_Img">
+            <img src="../Img/img11.jpg" class="board_Img">
+            <img src="../Img/img12.jpg" class="board_Img">
+        </div>
     </div>
 </body>
 </html>
